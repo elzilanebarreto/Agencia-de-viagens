@@ -45,6 +45,11 @@
     flex-direction: column;
 }
 
+/* -----------Pacotes Nacionais-------------- */
+.card img{
+    object-fit: cover;
+} 
+
 
 /* ----------------Rodapé------------------- */
 
