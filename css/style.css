@@ -66,19 +66,37 @@
 
 
 /* ----------------Rodapé------------------- */
+.redes-sociais{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-direction: column;
+}
 
 .redes-sociais a{
     text-decoration: none;
 }
 
 .redes-sociais .bi{
-    color: antiquewhite;
+    color: white;
 }
 
 .redes-sociais .bi:hover{
     color: rgb(236, 131, 5);
 }
 
-.direitos{
-    color: antiquewhite;
+.links{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.links:hover{
+    color: rgb(236, 131, 5);
+}
+
+.criadora{
+    color: rgb(236, 131, 5);
+    font-weight: bolder;
 }
