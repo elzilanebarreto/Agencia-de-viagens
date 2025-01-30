@@ -102,15 +102,17 @@
 }
 
 /* -----------Pacotes Nacionais-------------- */
+.card-body{
+    padding: 2px 10px;
+}
+
 .card img{
     object-fit: cover;
 } 
 
-.msg{
+.msg-nacional{
     display: block;
     color: #000957;
-    font-size: 1.5rem;
-    font-weight: 700;
     border-right: 5px solid rgb(236, 131, 5);
     white-space: nowrap; /*Não deixa a linha quebrar*/
     overflow: hidden;
@@ -129,11 +131,11 @@
 
 @keyframes write {
     20%{
-        width: 40ch;
+        width: 16ch;
     }
 
     70%{
-        width: 40ch;
+        width: 16ch;
     }
     85%{
         width: 0;
@@ -142,6 +144,109 @@
         width: 0;
     }
 }
+
+.cimaCard{
+    border-bottom: 1px solid #ccc;
+}
+
+.pacote{
+    color: #797777;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.card-title{
+    font-size: 1.1rem;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.textosCard{
+    font-size: 12px;
+    margin: 0;
+    color: #797777;
+}
+
+.economia{
+    background-color: #d0eec4;
+    color: #3c763d;
+    padding: 3px 5px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.descricao{
+    margin: 0;
+    font-size: 12px;
+    /* color: #797777; */
+}
+
+.precoAntigo{
+    text-decoration: line-through;
+    font-size: 11px;
+    color: #797777;
+    margin: 0;
+}
+
+.valor{
+    font-size: 11px;
+    color: #797777;
+    margin: 0;
+}
+
+.valor span{
+    margin: 0;
+    color: black;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.baixoCard .btn{
+    margin-bottom: 2px;
+}
+
+
+/* -----------Pacotes Internacionais------------- */
+
+.msg-internacional{
+    display: block;
+    color: #000957;
+    border-right: 5px solid rgb(236, 131, 5);
+    white-space: nowrap; /*Não deixa a linha quebrar*/
+    overflow: hidden;
+
+    width: 0; /*largura de caracter*/
+
+    animation: mark2 .5s step-end infinite, write2 5s steps(30,end) infinite;
+}
+
+/*Animações*/
+@keyframes mark2 {
+    50%{
+        border-right-color: transparent;
+    }
+}
+
+@keyframes write2 {
+    20%{
+        width: 19ch;
+    }
+
+    70%{
+        width: 19ch;
+    }
+    85%{
+        width: 0;
+    }
+    100%{
+        width: 0;
+    }
+}
+
+/* Reutilização dos estilos dos pacotes nacionais */
 
 
 /* ----------------Rodapé------------------- */
@@ -173,6 +278,10 @@
 
 .links:hover{
     color: rgb(236, 131, 5);
+}
+
+.criacao{
+    border-top: 1px solid white;
 }
 
 .criadora{
