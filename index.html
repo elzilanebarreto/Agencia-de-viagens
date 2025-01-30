@@ -171,19 +171,67 @@
         <!-- Fim das slides das ofertas -->
 
         <!-- Início da origem e destino -->
-        <section class="destino my-3">
-            <div class="container-destino">
-                <h2 class="text-center">Origem e Destino</h2>
+        <section class="destino">
 
-                <div class="form-destino">
+            <!-- Início do container com espaçamento interno -->
+            <div class="container py-2 cont-destino">
+                
+                <h2 class="text-center text-white mt-2">Origem e Destino</h2>
+
+                <!-- Início de linha -->
+                <div class="row mt-3 justify-content-center">
+
+                    <!-- Início de coluna -->
+                    <div class="col-md-2 colunas">
+                        <label class="subtitulo">Origem</label>
+                        <input type="text" class="form-control" placeholder="Cidade de origem">
+                    </div>
+                    <!-- Fim de coluna -->
+                    
+                    <!-- Início de coluna -->
+                    <div class="col-md-2 colunas">
+                        <label class="subtitulo">Destino</label>
+                        <input type="text" class="form-control" placeholder="Cidade de destino">
+                    </div>
+                    <!-- Fim de coluna -->
+
+                    <!-- Início de coluna -->
+                    <div class="col-md-2 colunas">
+                        <label class="subtitulo">Ida</label>
+                        <input type="date" class="form-control">
+                    </div>
+                    <!-- Fim de coluna -->
+
+                    <!-- Início de coluna -->
+                    <div class="col-md-2 colunas">
+                        <label class="subtitulo">Volta</label>
+                        <input type="date" class="form-control">
+                    </div>
+                    <!-- Fim de coluna -->
+
+                    <!-- Início de coluna -->
+                    <div class="col-md-2 colunas">
+                        <label class="subtitulo">Passageiros e Classe</label>
+                        <input type="text" class="form-control" placeholder="1 Pessoa, Econômica">
+                    </div>
+                    <!-- Fim de coluna -->
+
+                    <!-- Início de coluna -->
+                    <div class="col-md-1">
+                        <button class="mt-4 btn-busca">Buscar</button>
+                    </div>
+                    <!-- Fim de coluna -->
 
                 </div>
+                <!-- Fim da linha -->
+
             </div>
+            <!-- Fim do container com espaçamento interno -->
         </section>
         <!-- Fim da origem e destino -->
 
         <!-- Início da seção dos cards promocionais nacionais com margen p/ cima e baixo-->
-        <section class="cards my-5">
+        <section class="cards my-3">
 
             <!-- Início do container dos cards-->
             <div class="container">
@@ -321,18 +369,20 @@
         <!-- Fim da seção dos cards promocionais -->
 
         <!-- Início da seção dos cards promocionais internacionais com margen p/ cima e baixo-->
-        <section class="cards my-5">
+        <section class="cards my-4">
 
             <!-- Início do container dos cards-->
             <div class="container">
 
+                <!-- Início da linha -->
                 <div class="row justify-content-center">
                     <div class="col-md-5">
                         <!-- Início do título da seção centralizando com o boot -->
-                        <h2 class="mx-auto my-3 msg-internacional">Pacotes Internacionais</h2>
+                        <h2 class="mx-auto msg-internacional">Pacotes Internacionais</h2>
                         <!-- Fim do título da seção centralizando com o boot -->
                     </div>
                 </div>
+                <!-- Fim da linha -->
 
                 <!-- Início do carousel -->
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
@@ -350,7 +400,7 @@
                         <div class="carousel-item active" data-bs-interval="3000">
 
                             <!-- Início da linha para os cards com espaçamento interno-->
-                            <div class="row g-4 mt-2">
+                            <div class="row g-4 mt-3">
                                 <!-- Início da coluna (grid) -->
                                 <div class="col-md-4">
                                     <!-- Início do item do card do boot -->
@@ -641,9 +691,31 @@
         <!-- Início do Contato -->
         <section class="contatos my-5">
 
-            <div class="container-contatos">
+            <div class="container">
 
-                <h2 class="text-center">Entre em Contato</h2>
+                <div class="bordaForm">
+
+                    <h2 class="text-center">Entre em Contato</h2>
+                    
+                    <form action="#">
+                        <div class="row justify-content-center">
+                            <div class="col-md-4">
+                                <input type="text" class="inputContatos" placeholder="Nome Completo">
+                            </div>
+                            <div class="col-md-4">
+                                <input type="email" class="inputContatos" placeholder="E-mail">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-8">
+                                <textarea name="#" class="areaContatos" placeholder="Informe sua dúvida"></textarea>
+                            </div>
+                        </div>
+                        <div class="Botao">
+                            <input type="submit" class="btn" value="Enviar">
+                        </div>
+                    </form>
+                </div>
 
             </div>
 
@@ -655,22 +727,27 @@
             
             <div class="container">
                 
-                <h2 class="text-center">Sobre a Horizontes Livres</h2>
-
-                <div class="card mb-3 mx-auto" style="max-width: 1100px;">
+                
+                <div class="card mt-3 mx-auto">
                     <div class="row g-0">
-                      <div class="col-md-6">
-                        <img src="imagens/ofertas-slides/Parque.png" class="img-fluid rounded-start" alt="...">
-                      </div>
-                      <div class="col-md-6">
-                        <div class="card-body">
-                          <p class="card-text">
-                            Na Horizontes Livres, nossa paixão é conectar você com o mundo. Nossa missão é proporcionar experiências de viagem únicas e inesquecíveis, enquanto nossa visão é ser a sua principal parceira na descoberta de novos horizontes. Acreditamos que viajar é muito mais do que conhecer novos lugares, é uma jornada de autoconhecimento e enriquecimento cultural. Por isso, oferecemos pacotes personalizados e um atendimento exclusivo para que você possa vivenciar momentos mágicos e criar memórias para toda a vida.
-                          </p>
+                        <div class="col-md-6">
+                            <img src="imagens/profissionais/pessoas.png" class="img-fluid rounded-start imagen-prof" alt="...">
                         </div>
-                      </div>
+
+                        <div class="col-md-6">
+
+                            <div class="card-body sob-Card">
+                                <h2 class="titulo-sobre">Sobre a Horizontes Livres</h2>
+                                <p class="p-sobre">
+                                    Na Horizontes Livres, nossa paixão é conectar você com o mundo. Dessa forma, nossa missão é proporcionar experiências de viagem únicas e inesquecíveis, enquanto nossa visão é ser a sua principal parceira na descoberta de novos horizontes. Acreditamos que viajar é muito mais do que conhecer novos lugares, é uma jornada de autoconhecimento e enriquecimento cultural. Por isso, oferecemos pacotes personalizados e um atendimento exclusivo para que você possa vivenciar momentos mágicos e criar memórias para toda a vida.
+                                </p>
+                                <a href="#" class="btn align-items-end">
+                                    Saiba mais
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                  </div>
+                </div>
                 
             </div>
             

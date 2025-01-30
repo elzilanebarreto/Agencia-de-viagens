@@ -91,14 +91,44 @@
 
 /* ------------------Destino e Origem------------- */
 .destino{
-    background-color: #6c77dd;
+    background-color: #797777;
+    padding: 20px;
+    margin-top: 1px;
 }
 
-.container-destino {
-    display: flex;
+.cont-destino {
+    background-color: #8860c0;
+    border-radius: 10px;
+    color: white;
+}
+
+/* .colunas{
+    background-color: whitesmoke;
+} */
+
+.subtitulo{
+    color: white;
+    font-size: 1rem;
+}
+
+.form-control{
+    border: 1px solid #000957;
+    color: #797777;
+}
+
+.btn-busca{
+    background-color: rgb(236, 131, 5);
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    border-radius: 5px;
+}
+
+.btn-busca:hover{
+    background-color: white;
+    color: rgb(236, 131, 5);
+    border: 1px solid rgb(236, 131, 5);
 }
 
 /* -----------Pacotes Nacionais-------------- */
@@ -248,6 +278,54 @@
 
 /* Reutilização dos estilos dos pacotes nacionais */
 
+/* ----------------Contatos------------- */
+.bordaForm{
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.inputContatos{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+.areaContatos{
+    width: 100%;
+    max-height: 50px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.Botao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* -------------Sobre nós---------- */
+.titulo-sobre{
+    color: #000957;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.p-sobre{
+    color: black;
+    text-align: justify;
+}
+
+.imagen-prof{
+    height: 100%;
+    object-fit: cover;
+}
+
+.sob-Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /* ----------------Rodapé------------------- */
 .redes-sociais{
