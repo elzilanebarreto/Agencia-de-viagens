@@ -3,9 +3,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 /*-----------Cabeçalho-------------*/
 .bg-custom{
-    background-color: #000957;
+    background-color: rgb(41, 115, 178);
 }
 
 .logo{
@@ -89,15 +93,19 @@
     font-size: 1.4rem;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon, .b-carousel{
+    background-color: red;
+}
+
+
 /* ------------------Destino e Origem------------- */
 .destino{
-    background-color: #797777;
+    background-color: rgb(234, 226, 198);
     padding: 20px;
-    margin-top: 1px;
 }
 
 .cont-destino {
-    background-color: #8860c0;
+    background-color: rgb(72, 166, 167);
     border-radius: 10px;
     color: white;
 }
