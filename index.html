@@ -178,52 +178,54 @@
                 
                 <h2 class="text-center text-white mt-2">Origem e Destino</h2>
 
-                <!-- Início de linha -->
-                <div class="row mt-3 justify-content-center">
+                <!-- Início do form -->
+                <form action="#" method="get">
+                    <!-- Início de linha -->
+                    <div class="row mt-3 justify-content-center">
+                        <!-- Início de coluna -->
+                        <div class="col-md-2 colunas">
+                            <label class="subtitulo">Origem</label>
+                            <input type="text" class="form-control" placeholder="Cidade de origem">
+                        </div>
+                        <!-- Fim de coluna -->
+                        
+                        <!-- Início de coluna -->
+                        <div class="col-md-2 colunas">
+                            <label class="subtitulo">Destino</label>
+                            <input type="text" class="form-control" placeholder="Cidade de destino">
+                        </div>
+                        <!-- Fim de coluna -->
 
-                    <!-- Início de coluna -->
-                    <div class="col-md-2 colunas">
-                        <label class="subtitulo">Origem</label>
-                        <input type="text" class="form-control" placeholder="Cidade de origem">
-                    </div>
-                    <!-- Fim de coluna -->
-                    
-                    <!-- Início de coluna -->
-                    <div class="col-md-2 colunas">
-                        <label class="subtitulo">Destino</label>
-                        <input type="text" class="form-control" placeholder="Cidade de destino">
-                    </div>
-                    <!-- Fim de coluna -->
+                        <!-- Início de coluna -->
+                        <div class="col-md-2 colunas">
+                            <label class="subtitulo">Ida</label>
+                            <input type="date" class="form-control">
+                        </div>
+                        <!-- Fim de coluna -->
 
-                    <!-- Início de coluna -->
-                    <div class="col-md-2 colunas">
-                        <label class="subtitulo">Ida</label>
-                        <input type="date" class="form-control">
-                    </div>
-                    <!-- Fim de coluna -->
+                        <!-- Início de coluna -->
+                        <div class="col-md-2 colunas">
+                            <label class="subtitulo">Volta</label>
+                            <input type="date" class="form-control">
+                        </div>
+                        <!-- Fim de coluna -->
 
-                    <!-- Início de coluna -->
-                    <div class="col-md-2 colunas">
-                        <label class="subtitulo">Volta</label>
-                        <input type="date" class="form-control">
-                    </div>
-                    <!-- Fim de coluna -->
+                        <!-- Início de coluna -->
+                        <div class="col-md-2 colunas">
+                            <label class="subtitulo">Passageiros e Classe</label>
+                            <input type="text" class="form-control" placeholder="1 Pessoa, Econômica">
+                        </div>
+                        <!-- Fim de coluna -->
 
-                    <!-- Início de coluna -->
-                    <div class="col-md-2 colunas">
-                        <label class="subtitulo">Passageiros e Classe</label>
-                        <input type="text" class="form-control" placeholder="1 Pessoa, Econômica">
+                        <!-- Início de coluna -->
+                        <div class="col-md-1">
+                            <input type="submit" class="mt-4 btn-busca" value="Buscar">
+                        </div>
+                        <!-- Fim de coluna -->
                     </div>
-                    <!-- Fim de coluna -->
-
-                    <!-- Início de coluna -->
-                    <div class="col-md-1">
-                        <button class="mt-4 btn-busca">Buscar</button>
-                    </div>
-                    <!-- Fim de coluna -->
-
-                </div>
-                <!-- Fim da linha -->
+                    <!-- Fim da linha -->
+                </form>
+                <!-- Fim do form -->
 
             </div>
             <!-- Fim do container com espaçamento interno -->
@@ -231,18 +233,22 @@
         <!-- Fim da origem e destino -->
 
         <!-- Início da seção dos cards promocionais nacionais com margen p/ cima e baixo-->
-        <section class="cards my-3">
+        <section class="pacotes-nacionais my-3">
 
             <!-- Início do container dos cards-->
             <div class="container">
 
+                <!-- Início da linha -->
                 <div class="row justify-content-center">
+                    <!-- Início da coluna -->
                     <div class="col-md-5 ">
                         <!-- Início do título da seção centralizando com o boot -->
                         <h2 class="mx-auto msg-nacional">Pacotes Nacionais</h2>
                         <!-- Fim do título da seção centralizando com o boot -->
                     </div>
+                    <!-- Fim da coluna -->
                 </div>
+                <!-- Fim da linha -->
                 
                 <!-- Início da linha para os cards com espaçamento interno-->
                 <div class="row g-4 mt-2">
@@ -251,20 +257,20 @@
                     <div class="col-md-3">
                         <!-- Início do item do card do boot -->
                         <div class="card">
-                            <img src="imagens/pacotes-nacionais/curitiba.png" class="card-img-top" alt="...">
+                            <img src="imagens/pacotes-nacionais/curitiba.png" class="card-img-top" alt="Curitiba">
                             <div class="card-body">
                                 <div class="cimaCard">
                                     <p class="pacote">Pacote</p>
                                     <h5 class="card-title">Pacotes para Curitiba</h5>
-                                    <p class="textosCard" >Saindo de São Paulo</p>
+                                    <p class="textosCard" >Saindo de Brasília</p>
                                     <p class="textosCard">Aéreo + Hotel</p>
                                 </div>
 
                                 <div class="baixoCard">
-                                    <p class="economia">Economize R$414</p>
+                                    <p class="economia">Economize R$114</p>
                                     <p class="descricao">Preço por pessoa</p>
                                     <p class="precoAntigo">R$ 1.654,24</p>
-                                    <p class="valor"> R$ <span>1.240,24</span></p>    
+                                    <p class="valor"> R$ <span>1.540,24</span></p>    
                                     
                                     <a href="#" class="btn btn-primary">Compre Agora</a>
                                 </div>
@@ -279,20 +285,20 @@
                     <div class="col-md-3">
                         <!-- Início do item do card do boot -->
                         <div class="card">
-                            <img src="imagens/pacotes-nacionais/amazonas.png" class="card-img-top" alt="...">
+                            <img src="imagens/pacotes-nacionais/amazonas.png" class="card-img-top" alt="Manaus">
                             <div class="card-body">
                                 <div class="cimaCard">
                                     <p class="pacote">Pacote</p>
                                     <h5 class="card-title">Pacotes para Manaus</h5>
-                                    <p class="textosCard" >Saindo de São Paulo</p>
+                                    <p class="textosCard" >Saindo de Belém</p>
                                     <p class="textosCard">Aéreo + Hotel</p>
                                 </div>
 
                                 <div class="baixoCard">
-                                    <p class="economia">Economize R$414</p>
+                                    <p class="economia">Economize R$120</p>
                                     <p class="descricao">Preço por pessoa</p>
-                                    <p class="precoAntigo">R$ 1.654,24</p>
-                                    <p class="valor"> R$ <span>1.240,24</span></p>    
+                                    <p class="precoAntigo">R$ 1.522,24</p>
+                                    <p class="valor"> R$ <span>1.402,24</span></p>    
                                     
                                     <a href="#" class="btn btn-primary">Compre Agora</a>
                                 </div>
@@ -307,20 +313,20 @@
                     <div class="col-md-3">
                         <!-- Início do item do card do boot -->
                         <div class="card">
-                            <img src="imagens/pacotes-nacionais/rio-janeiro.png" class="card-img-top" alt="...">
+                            <img src="imagens/pacotes-nacionais/rio-janeiro.png" class="card-img-top" alt="Rio de Janeiro">
                             <div class="card-body">
                                 <div class="cimaCard">
                                     <p class="pacote">Pacote</p>
                                     <h5 class="card-title">Pacotes para Rio de Janeiro</h5>
-                                    <p class="textosCard" >Saindo de São Paulo</p>
+                                    <p class="textosCard" >Saindo de Manaus</p>
                                     <p class="textosCard">Aéreo + Hotel</p>
                                 </div>
 
                                 <div class="baixoCard">
-                                    <p class="economia">Economize R$414</p>
+                                    <p class="economia">Economize R$232</p>
                                     <p class="descricao">Preço por pessoa</p>
-                                    <p class="precoAntigo">R$ 1.654,24</p>
-                                    <p class="valor"> R$ <span>1.240,24</span></p>    
+                                    <p class="precoAntigo">R$ 1658,24</p>
+                                    <p class="valor"> R$ <span>1.426,24</span></p>    
                                     
                                     <a href="#" class="btn btn-primary">Compre Agora</a>
                                 </div>
@@ -335,7 +341,7 @@
                     <div class="col-md-3">
                         <!-- Início do item do card do boot -->
                         <div class="card">
-                            <img src="imagens/pacotes-nacionais/salvador.png" class="card-img-top" alt="...">
+                            <img src="imagens/pacotes-nacionais/salvador.png" class="card-img-top" alt="Salvador">
                             <div class="card-body">
                                 <div class="cimaCard">
                                     <p class="pacote">Pacote</p>
@@ -345,10 +351,10 @@
                                 </div>
 
                                 <div class="baixoCard">
-                                    <p class="economia">Economize R$414</p>
+                                    <p class="economia">Economize R$214</p>
                                     <p class="descricao">Preço por pessoa</p>
                                     <p class="precoAntigo">R$ 1.654,24</p>
-                                    <p class="valor"> R$ <span>1.240,24</span></p>    
+                                    <p class="valor"> R$ <span>1.440,24</span></p>    
                                     
                                     <a href="#" class="btn btn-primary">Compre Agora</a>
                                 </div>
@@ -369,7 +375,7 @@
         <!-- Fim da seção dos cards promocionais -->
 
         <!-- Início da seção dos cards promocionais internacionais com margen p/ cima e baixo-->
-        <section class="cards my-4">
+        <section class="pacotes-internacionais my-4">
 
             <!-- Início do container dos cards-->
             <div class="container">
