@@ -85,25 +85,11 @@ body{
 #titulo-mapa, #titulo-praia, #titulo-hotel, #titulo-parque{
     font-weight: bolder;
     font-size: 3rem;
+    color: white;
 }
 
 #p-mapa, #p-praia, #p-hotel, #p-parque{
     font-size: 2rem;
-}
-
-#titulo-mapa, #p-mapa{
-    color: red;
-}
-
-#titulo-praia, #p-praia{
-    color: blue;
-}
-
-#titulo-parque, #p-parque{
-    color: white;
-}
-
-#titulo-hotel, #p-hotel{
     color: white;
 }
 
