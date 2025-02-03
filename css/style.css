@@ -82,13 +82,13 @@ body{
 }
 
 /* ----------------------Slides-------------------- */
-#titulo-mapa, #titulo-praia, #titulo-hotel, #titulo-parque{
+.titulos-slides{
     font-weight: bolder;
     font-size: 3rem;
     color: white;
 }
 
-#p-mapa, #p-praia, #p-hotel, #p-parque{
+.par-slides{
     font-size: 2rem;
     color: white;
 }
