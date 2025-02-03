@@ -122,32 +122,32 @@
 
                 <!-- Início do conteúdos do carousel -->
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="3000">
-                        <img src="imagens/ofertas-slides/Mapa.png" class="d-block w-100" alt="Mapa de lugares">
+                    <div class="carousel-item active" data-bs-interval="4000">
+                        <img src="imagens/ofertas-slides/mapa.png" class="d-block w-100" alt="Mapa de lugares">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5 id="mapa-h">Melhores Preços para Suas Viagens</h5>
-                            <p id="mapa-p">Aqui você encontra os melhores preços para suas viagens</p>
+                            <h5 id="titulo-mapa">Melhores Preços</h5>
+                            <p id="p-mapa">Aqui você encontra os melhores preços para suas viagens</p>
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="3000">
+                    <div class="carousel-item" data-bs-interval="4000">
                         <img src="imagens/ofertas-slides/Parque.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Melhores Passeios</h5>
-                            <p>Ajudamos você e sua família a terem ingressos merecidos em parques de diversões.</p>
+                            <h5 id="titulo-parque">Melhores Passeios</h5>
+                            <p id="p-parque">Ajudamos você e sua família a terem ingressos merecidos em parques de diversões.</p>
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="3000">
-                        <img src="imagens/ofertas-slides/Praia.png" class="d-block w-100" alt="...">
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="imagens/ofertas-slides/praia.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>As melhores férias</h5>
-                            <p>Aqui ajudamos você a encontrar as melhores ofertas de viagens para curtir suas férias.</p>
+                            <h5 id="titulo-praia">Melhores Férias</h5>
+                            <p id="p-praia">Aqui ajudamos você a encontrar as melhores ofertas de viagens para curtir suas férias.</p>
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="3000">
+                    <div class="carousel-item" data-bs-interval="4000">
                         <img src="imagens/ofertas-slides/Cidades.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Melhores Hospedagens</h5>
-                            <p>Ajudamos você encontrar os melhores hotéis para sua hospedagem.</p>
+                            <h5 id="titulo-hotel">Melhores Hospedagens</h5>
+                            <p id="p-hotel">Ajudamos você encontrar os melhores hotéis para sua hospedagem.</p>
                         </div>
                     </div>
                 </div>
@@ -178,52 +178,54 @@
                 
                 <h2 class="text-center text-white mt-2">Origem e Destino</h2>
 
-                <!-- Início de linha -->
-                <div class="row mt-3 justify-content-center">
+                <!-- Início do form -->
+                <form action="#" method="get">
+                    <!-- Início de linha -->
+                    <div class="row mt-3 justify-content-center">
+                        <!-- Início de coluna -->
+                        <div class="col-md-2 colunas">
+                            <label class="subtitulo">Origem</label>
+                            <input type="text" class="form-control" placeholder="Cidade de origem">
+                        </div>
+                        <!-- Fim de coluna -->
+                        
+                        <!-- Início de coluna -->
+                        <div class="col-md-2 colunas">
+                            <label class="subtitulo">Destino</label>
+                            <input type="text" class="form-control" placeholder="Cidade de destino">
+                        </div>
+                        <!-- Fim de coluna -->
 
-                    <!-- Início de coluna -->
-                    <div class="col-md-2 colunas">
-                        <label class="subtitulo">Origem</label>
-                        <input type="text" class="form-control" placeholder="Cidade de origem">
-                    </div>
-                    <!-- Fim de coluna -->
-                    
-                    <!-- Início de coluna -->
-                    <div class="col-md-2 colunas">
-                        <label class="subtitulo">Destino</label>
-                        <input type="text" class="form-control" placeholder="Cidade de destino">
-                    </div>
-                    <!-- Fim de coluna -->
+                        <!-- Início de coluna -->
+                        <div class="col-md-2 colunas">
+                            <label class="subtitulo">Ida</label>
+                            <input type="date" class="form-control">
+                        </div>
+                        <!-- Fim de coluna -->
 
-                    <!-- Início de coluna -->
-                    <div class="col-md-2 colunas">
-                        <label class="subtitulo">Ida</label>
-                        <input type="date" class="form-control">
-                    </div>
-                    <!-- Fim de coluna -->
+                        <!-- Início de coluna -->
+                        <div class="col-md-2 colunas">
+                            <label class="subtitulo">Volta</label>
+                            <input type="date" class="form-control">
+                        </div>
+                        <!-- Fim de coluna -->
 
-                    <!-- Início de coluna -->
-                    <div class="col-md-2 colunas">
-                        <label class="subtitulo">Volta</label>
-                        <input type="date" class="form-control">
-                    </div>
-                    <!-- Fim de coluna -->
+                        <!-- Início de coluna -->
+                        <div class="col-md-2 colunas">
+                            <label class="subtitulo">Passageiros e Classe</label>
+                            <input type="text" class="form-control" placeholder="1 Pessoa, Econômica">
+                        </div>
+                        <!-- Fim de coluna -->
 
-                    <!-- Início de coluna -->
-                    <div class="col-md-2 colunas">
-                        <label class="subtitulo">Passageiros e Classe</label>
-                        <input type="text" class="form-control" placeholder="1 Pessoa, Econômica">
+                        <!-- Início de coluna -->
+                        <div class="col-md-1">
+                            <input type="submit" class="mt-4 btn-busca" value="Buscar">
+                        </div>
+                        <!-- Fim de coluna -->
                     </div>
-                    <!-- Fim de coluna -->
-
-                    <!-- Início de coluna -->
-                    <div class="col-md-1">
-                        <button class="mt-4 btn-busca">Buscar</button>
-                    </div>
-                    <!-- Fim de coluna -->
-
-                </div>
-                <!-- Fim da linha -->
+                    <!-- Fim da linha -->
+                </form>
+                <!-- Fim do form -->
 
             </div>
             <!-- Fim do container com espaçamento interno -->
@@ -231,18 +233,22 @@
         <!-- Fim da origem e destino -->
 
         <!-- Início da seção dos cards promocionais nacionais com margen p/ cima e baixo-->
-        <section class="cards my-3">
+        <section class="pacotes-nacionais my-3">
 
             <!-- Início do container dos cards-->
             <div class="container">
 
+                <!-- Início da linha -->
                 <div class="row justify-content-center">
+                    <!-- Início da coluna -->
                     <div class="col-md-5 ">
                         <!-- Início do título da seção centralizando com o boot -->
                         <h2 class="mx-auto msg-nacional">Pacotes Nacionais</h2>
                         <!-- Fim do título da seção centralizando com o boot -->
                     </div>
+                    <!-- Fim da coluna -->
                 </div>
+                <!-- Fim da linha -->
                 
                 <!-- Início da linha para os cards com espaçamento interno-->
                 <div class="row g-4 mt-2">
@@ -251,20 +257,20 @@
                     <div class="col-md-3">
                         <!-- Início do item do card do boot -->
                         <div class="card">
-                            <img src="imagens/pacotes-nacionais/curitiba.png" class="card-img-top" alt="...">
+                            <img src="imagens/pacotes-nacionais/curitiba.png" class="card-img-top" alt="Curitiba">
                             <div class="card-body">
                                 <div class="cimaCard">
                                     <p class="pacote">Pacote</p>
                                     <h5 class="card-title">Pacotes para Curitiba</h5>
-                                    <p class="textosCard" >Saindo de São Paulo</p>
+                                    <p class="textosCard" >Saindo de Brasília</p>
                                     <p class="textosCard">Aéreo + Hotel</p>
                                 </div>
 
                                 <div class="baixoCard">
-                                    <p class="economia">Economize R$414</p>
+                                    <p class="economia">Economize R$114</p>
                                     <p class="descricao">Preço por pessoa</p>
                                     <p class="precoAntigo">R$ 1.654,24</p>
-                                    <p class="valor"> R$ <span>1.240,24</span></p>    
+                                    <p class="valor"> R$ <span>1.540,24</span></p>    
                                     
                                     <a href="#" class="btn btn-primary">Compre Agora</a>
                                 </div>
@@ -279,20 +285,20 @@
                     <div class="col-md-3">
                         <!-- Início do item do card do boot -->
                         <div class="card">
-                            <img src="imagens/pacotes-nacionais/amazonas.png" class="card-img-top" alt="...">
+                            <img src="imagens/pacotes-nacionais/amazonas.png" class="card-img-top" alt="Manaus">
                             <div class="card-body">
                                 <div class="cimaCard">
                                     <p class="pacote">Pacote</p>
                                     <h5 class="card-title">Pacotes para Manaus</h5>
-                                    <p class="textosCard" >Saindo de São Paulo</p>
+                                    <p class="textosCard" >Saindo de Belém</p>
                                     <p class="textosCard">Aéreo + Hotel</p>
                                 </div>
 
                                 <div class="baixoCard">
-                                    <p class="economia">Economize R$414</p>
+                                    <p class="economia">Economize R$120</p>
                                     <p class="descricao">Preço por pessoa</p>
-                                    <p class="precoAntigo">R$ 1.654,24</p>
-                                    <p class="valor"> R$ <span>1.240,24</span></p>    
+                                    <p class="precoAntigo">R$ 1.522,24</p>
+                                    <p class="valor"> R$ <span>1.402,24</span></p>    
                                     
                                     <a href="#" class="btn btn-primary">Compre Agora</a>
                                 </div>
@@ -307,20 +313,20 @@
                     <div class="col-md-3">
                         <!-- Início do item do card do boot -->
                         <div class="card">
-                            <img src="imagens/pacotes-nacionais/rio-janeiro.png" class="card-img-top" alt="...">
+                            <img src="imagens/pacotes-nacionais/rio-janeiro.png" class="card-img-top" alt="Rio de Janeiro">
                             <div class="card-body">
                                 <div class="cimaCard">
                                     <p class="pacote">Pacote</p>
                                     <h5 class="card-title">Pacotes para Rio de Janeiro</h5>
-                                    <p class="textosCard" >Saindo de São Paulo</p>
+                                    <p class="textosCard" >Saindo de Manaus</p>
                                     <p class="textosCard">Aéreo + Hotel</p>
                                 </div>
 
                                 <div class="baixoCard">
-                                    <p class="economia">Economize R$414</p>
+                                    <p class="economia">Economize R$232</p>
                                     <p class="descricao">Preço por pessoa</p>
-                                    <p class="precoAntigo">R$ 1.654,24</p>
-                                    <p class="valor"> R$ <span>1.240,24</span></p>    
+                                    <p class="precoAntigo">R$ 1658,24</p>
+                                    <p class="valor"> R$ <span>1.426,24</span></p>    
                                     
                                     <a href="#" class="btn btn-primary">Compre Agora</a>
                                 </div>
@@ -335,7 +341,7 @@
                     <div class="col-md-3">
                         <!-- Início do item do card do boot -->
                         <div class="card">
-                            <img src="imagens/pacotes-nacionais/salvador.png" class="card-img-top" alt="...">
+                            <img src="imagens/pacotes-nacionais/salvador.png" class="card-img-top" alt="Salvador">
                             <div class="card-body">
                                 <div class="cimaCard">
                                     <p class="pacote">Pacote</p>
@@ -345,10 +351,10 @@
                                 </div>
 
                                 <div class="baixoCard">
-                                    <p class="economia">Economize R$414</p>
+                                    <p class="economia">Economize R$214</p>
                                     <p class="descricao">Preço por pessoa</p>
                                     <p class="precoAntigo">R$ 1.654,24</p>
-                                    <p class="valor"> R$ <span>1.240,24</span></p>    
+                                    <p class="valor"> R$ <span>1.440,24</span></p>    
                                     
                                     <a href="#" class="btn btn-primary">Compre Agora</a>
                                 </div>
@@ -369,7 +375,7 @@
         <!-- Fim da seção dos cards promocionais -->
 
         <!-- Início da seção dos cards promocionais internacionais com margen p/ cima e baixo-->
-        <section class="cards my-4">
+        <section class="pacotes-internacionais my-4">
 
             <!-- Início do container dos cards-->
             <div class="container">
@@ -392,9 +398,9 @@
                         <div class="carousel-item active" data-bs-interval="3000">
 
                             <!-- Início da linha para os cards com espaçamento interno-->
-                            <div class="row g-4">
+                            <div class="row g-4 justify-content-center">
                                 <!-- Início da coluna (grid) -->
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <!-- Início do item do card do boot -->
                                     <div class="card">
                                         <img src="imagens/pacotes-internacionais/nova-york.png" class="card-img-top" alt="Nova York">
@@ -407,10 +413,10 @@
                                             </div>
             
                                             <div class="baixoCard">
-                                                <p class="economia">Economize R$414</p>
+                                                <p class="economia">Economize R$321</p>
                                                 <p class="descricao">Preço por pessoa</p>
-                                                <p class="precoAntigo">R$ 1.654,24</p>
-                                                <p class="valor"> R$ <span>1.240,24</span></p>    
+                                                <p class="precoAntigo">R$ 2.091,24</p>
+                                                <p class="valor"> R$ <span>1.770,24</span></p>    
                                                 
                                                 <a href="#" class="btn btn-primary">Compre Agora</a>
                                             </div>
@@ -422,7 +428,7 @@
                                 <!-- Fim da coluna (grid) -->
                                 
                                 <!-- Início da coluna (grid) -->
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <!-- Início do item do card do boot -->
                                     <div class="card">
                                         <img src="imagens/pacotes-internacionais/londres.png" class="card-img-top" alt="Londres">
@@ -430,15 +436,15 @@
                                             <div class="cimaCard">
                                                 <p class="pacote">Pacote</p>
                                                 <h5 class="card-title">Pacotes para Londres</h5>
-                                                <p class="textosCard" >Saindo de São Paulo</p>
+                                                <p class="textosCard" >Saindo do Rio de Janeiro</p>
                                                 <p class="textosCard">Aéreo + Hotel</p>
                                             </div>
             
                                             <div class="baixoCard">
-                                                <p class="economia">Economize R$414</p>
+                                                <p class="economia">Economize R$114</p>
                                                 <p class="descricao">Preço por pessoa</p>
-                                                <p class="precoAntigo">R$ 1.654,24</p>
-                                                <p class="valor"> R$ <span>1.240,24</span></p>    
+                                                <p class="precoAntigo">R$ 2.254,24</p>
+                                                <p class="valor"> R$ <span>2.140,24</span></p>    
                                                 
                                                 <a href="#" class="btn btn-primary">Compre Agora</a>
                                             </div>
@@ -450,7 +456,7 @@
                                 <!-- Fim da coluna (grid) -->
 
                                 <!-- Início da coluna (grid) -->
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <!-- Início do item do card do boot -->
                                     <div class="card">
                                         <img src="imagens/pacotes-internacionais/paris.png" class="card-img-top" alt="Paris">
@@ -458,15 +464,15 @@
                                             <div class="cimaCard">
                                                 <p class="pacote">Pacote</p>
                                                 <h5 class="card-title">Pacotes para Paris</h5>
-                                                <p class="textosCard" >Saindo de São Paulo</p>
+                                                <p class="textosCard" >Saindo de Porto Alegre</p>
                                                 <p class="textosCard">Aéreo + Hotel</p>
                                             </div>
             
                                             <div class="baixoCard">
-                                                <p class="economia">Economize R$414</p>
+                                                <p class="economia">Economize R$312</p>
                                                 <p class="descricao">Preço por pessoa</p>
-                                                <p class="precoAntigo">R$ 1.654,24</p>
-                                                <p class="valor"> R$ <span>1.240,24</span></p>    
+                                                <p class="precoAntigo">R$ 2.654,24</p>
+                                                <p class="valor"> R$ <span>2.342,24</span></p>    
                                                 
                                                 <a href="#" class="btn btn-primary">Compre Agora</a>
                                             </div>
@@ -476,6 +482,35 @@
                                     <!-- Fim do item do card do boot -->
                                 </div>
                                 <!-- Fim da coluna (grid) -->
+
+                                <!-- Início da coluna (grid) -->
+                                <div class="col-md-3">
+                                    <!-- Início do item do card do boot -->
+                                    <div class="card">
+                                        <img src="imagens/pacotes-internacionais/indonesia.png" class="card-img-top" alt="Londres">
+                                        <div class="card-body">
+                                            <div class="cimaCard">
+                                                <p class="pacote">Pacote</p>
+                                                <h5 class="card-title">Pacotes para Indonésia</h5>
+                                                <p class="textosCard" >Saindo de Belém</p>
+                                                <p class="textosCard">Aéreo + Hotel</p>
+                                            </div>
+            
+                                            <div class="baixoCard">
+                                                <p class="economia">Economize R$214</p>
+                                                <p class="descricao">Preço por pessoa</p>
+                                                <p class="precoAntigo">R$ 2.350,24</p>
+                                                <p class="valor"> R$ <span>2.136,24</span></p>    
+                                                
+                                                <a href="#" class="btn btn-primary">Compre Agora</a>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <!-- Fim do item do card do boot -->
+                                </div>
+                                <!-- Fim da coluna (grid) -->
+
                             </div>
                             <!-- Fim da linha para os cards -->
                              
@@ -484,9 +519,9 @@
 
                         <div class="carousel-item" data-bs-interval="3000">
                             <!-- Início da linha para os cards com espaçamento interno-->
-                            <div class="row g-4">
+                            <div class="row g-4 justify-content-center">
                                 <!-- Início da coluna (grid) -->
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <!-- Início do item do card do boot -->
                                     <div class="card">
                                         <img src="imagens/pacotes-internacionais/india.png" class="card-img-top" alt="Índia">
@@ -494,15 +529,15 @@
                                             <div class="cimaCard">
                                                 <p class="pacote">Pacote</p>
                                                 <h5 class="card-title">Pacotes para Índia</h5>
-                                                <p class="textosCard" >Saindo de São Paulo</p>
+                                                <p class="textosCard" >Saindo de Porto Alegre</p>
                                                 <p class="textosCard">Aéreo + Hotel</p>
                                             </div>
             
                                             <div class="baixoCard">
-                                                <p class="economia">Economize R$414</p>
+                                                <p class="economia">Economize R$110</p>
                                                 <p class="descricao">Preço por pessoa</p>
-                                                <p class="precoAntigo">R$ 1.654,24</p>
-                                                <p class="valor"> R$ <span>1.240,24</span></p>    
+                                                <p class="precoAntigo">R$ 3.121,24</p>
+                                                <p class="valor"> R$ <span>3.011,24</span></p>    
                                                 
                                                 <a href="#" class="btn btn-primary">Compre Agora</a>
                                             </div>
@@ -514,7 +549,7 @@
                                 <!-- Fim da coluna (grid) -->
 
                                 <!-- Início da coluna (grid) -->
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <!-- Início do item do card do boot -->
                                     <div class="card">
                                         <img src="imagens/pacotes-internacionais/havai.png" class="card-img-top" alt="Havaí">
@@ -527,10 +562,10 @@
                                             </div>
             
                                             <div class="baixoCard">
-                                                <p class="economia">Economize R$414</p>
+                                                <p class="economia">Economize R$213</p>
                                                 <p class="descricao">Preço por pessoa</p>
-                                                <p class="precoAntigo">R$ 1.654,24</p>
-                                                <p class="valor"> R$ <span>1.240,24</span></p>    
+                                                <p class="precoAntigo">R$ 2.654,24</p>
+                                                <p class="valor"> R$ <span>2.441,24</span></p>    
                                                 
                                                 <a href="#" class="btn btn-primary">Compre Agora</a>
                                             </div>
@@ -542,7 +577,7 @@
                                 <!-- Fim da coluna (grid) -->
 
                                 <!-- Início da coluna (grid) -->
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <!-- Início do item do card do boot -->
                                     <div class="card">
                                         <img src="imagens/pacotes-internacionais/veneza.png" class="card-img-top" alt="Veneza">
@@ -550,15 +585,43 @@
                                             <div class="cimaCard">
                                                 <p class="pacote">Pacote</p>
                                                 <h5 class="card-title">Pacotes para Veneza</h5>
+                                                <p class="textosCard" >Saindo de Manaus</p>
+                                                <p class="textosCard">Aéreo + Hotel</p>
+                                            </div>
+            
+                                            <div class="baixoCard">
+                                                <p class="economia">Economize R$114</p>
+                                                <p class="descricao">Preço por pessoa</p>
+                                                <p class="precoAntigo">R$ 2.250,24</p>
+                                                <p class="valor"> R$ <span>2.136,24</span></p>    
+                                                
+                                                <a href="#" class="btn btn-primary">Compre Agora</a>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <!-- Fim do item do card do boot -->
+                                </div>
+                                <!-- Fim da coluna (grid) -->
+
+                                <!-- Início da coluna (grid) -->
+                                <div class="col-md-3">
+                                    <!-- Início do item do card do boot -->
+                                    <div class="card">
+                                        <img src="imagens/pacotes-internacionais/egito.png" class="card-img-top" alt="Londres">
+                                        <div class="card-body">
+                                            <div class="cimaCard">
+                                                <p class="pacote">Pacote</p>
+                                                <h5 class="card-title">Pacotes para Egito</h5>
                                                 <p class="textosCard" >Saindo de São Paulo</p>
                                                 <p class="textosCard">Aéreo + Hotel</p>
                                             </div>
             
                                             <div class="baixoCard">
-                                                <p class="economia">Economize R$414</p>
+                                                <p class="economia">Economize R$214</p>
                                                 <p class="descricao">Preço por pessoa</p>
-                                                <p class="precoAntigo">R$ 1.654,24</p>
-                                                <p class="valor"> R$ <span>1.240,24</span></p>    
+                                                <p class="precoAntigo">R$ 3.125,24</p>
+                                                <p class="valor"> R$ <span>2.911,24</span></p>    
                                                 
                                                 <a href="#" class="btn btn-primary">Compre Agora</a>
                                             </div>
@@ -574,9 +637,9 @@
                         <!-- Fim dos itens -->
                         
                         <div class="carousel-item" data-bs-interval="3000">
-                            <div class="row g-4">
+                            <div class="row g-4 justify-content-center">
                                 <!-- Início da coluna (grid) -->
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <!-- Início do item do card do boot -->
                                     <div class="card">
                                         <img src="imagens/pacotes-internacionais/suica.png" class="card-img-top" alt="Suíça">
@@ -584,15 +647,15 @@
                                             <div class="cimaCard">
                                                 <p class="pacote">Pacote</p>
                                                 <h5 class="card-title">Pacotes para Suíça</h5>
-                                                <p class="textosCard" >Saindo de São Paulo</p>
+                                                <p class="textosCard" >Saindo de Belém</p>
                                                 <p class="textosCard">Aéreo + Hotel</p>
                                             </div>
             
                                             <div class="baixoCard">
-                                                <p class="economia">Economize R$414</p>
+                                                <p class="economia">Economize R$214</p>
                                                 <p class="descricao">Preço por pessoa</p>
-                                                <p class="precoAntigo">R$ 1.654,24</p>
-                                                <p class="valor"> R$ <span>1.240,24</span></p>    
+                                                <p class="precoAntigo">R$ 1.956,24</p>
+                                                <p class="valor"> R$ <span>1.742,24</span></p>    
                                                 
                                                 <a href="#" class="btn btn-primary">Compre Agora</a>
                                             </div>
@@ -604,7 +667,7 @@
                                 <!-- Fim da coluna (grid) -->
 
                                 <!-- Início da coluna (grid) -->
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <!-- Início do item do card do boot -->
                                     <div class="card">
                                         <img src="imagens/pacotes-internacionais/tokyo.png" class="card-img-top" alt="Tokyo">
@@ -612,15 +675,15 @@
                                             <div class="cimaCard">
                                                 <p class="pacote">Pacote</p>
                                                 <h5 class="card-title">Pacotes para Tokyo</h5>
-                                                <p class="textosCard" >Saindo de São Paulo</p>
+                                                <p class="textosCard" >Saindo do Rio de Janeiro</p>
                                                 <p class="textosCard">Aéreo + Hotel</p>
                                             </div>
             
                                             <div class="baixoCard">
-                                                <p class="economia">Economize R$414</p>
+                                                <p class="economia">Economize R$450</p>
                                                 <p class="descricao">Preço por pessoa</p>
-                                                <p class="precoAntigo">R$ 1.654,24</p>
-                                                <p class="valor"> R$ <span>1.240,24</span></p>    
+                                                <p class="precoAntigo">R$ 3.654,24</p>
+                                                <p class="valor"> R$ <span>3.204,24</span></p>    
                                                 
                                                 <a href="#" class="btn btn-primary">Compre Agora</a>
                                             </div>
@@ -632,7 +695,7 @@
                                 <!-- Fim da coluna (grid) -->
 
                                 <!-- Início da coluna (grid) -->
-                                <div class="col-md-4">
+                                <div class="col-md-3">
                                     <!-- Início do item do card do boot -->
                                     <div class="card">
                                         <img src="imagens/pacotes-internacionais/roma.png" class="card-img-top" alt="Roma">
@@ -640,15 +703,43 @@
                                             <div class="cimaCard">
                                                 <p class="pacote">Pacote</p>
                                                 <h5 class="card-title">Pacotes para Roma</h5>
-                                                <p class="textosCard" >Saindo de São Paulo</p>
+                                                <p class="textosCard" >Saindo de Belém</p>
                                                 <p class="textosCard">Aéreo + Hotel</p>
                                             </div>
             
                                             <div class="baixoCard">
                                                 <p class="economia">Economize R$414</p>
                                                 <p class="descricao">Preço por pessoa</p>
-                                                <p class="precoAntigo">R$ 1.654,24</p>
-                                                <p class="valor"> R$ <span>1.240,24</span></p>    
+                                                <p class="precoAntigo">R$ 3.210,24</p>
+                                                <p class="valor"> R$ <span>2.796,24</span></p>    
+                                                
+                                                <a href="#" class="btn btn-primary">Compre Agora</a>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <!-- Fim do item do card do boot -->
+                                </div>
+                                <!-- Fim da coluna (grid) -->
+
+                                <!-- Início da coluna (grid) -->
+                                <div class="col-md-3">
+                                    <!-- Início do item do card do boot -->
+                                    <div class="card">
+                                        <img src="imagens/pacotes-internacionais/chile.png" class="card-img-top" alt="Londres">
+                                        <div class="card-body">
+                                            <div class="cimaCard">
+                                                <p class="pacote">Pacote</p>
+                                                <h5 class="card-title">Pacotes para o Chile</h5>
+                                                <p class="textosCard" >Saindo de Manaus</p>
+                                                <p class="textosCard">Aéreo + Hotel</p>
+                                            </div>
+            
+                                            <div class="baixoCard">
+                                                <p class="economia">Economize R$253</p>
+                                                <p class="descricao">Preço por pessoa</p>
+                                                <p class="precoAntigo">R$ 1.987,24</p>
+                                                <p class="valor"> R$ <span>1.734,24</span></p>    
                                                 
                                                 <a href="#" class="btn btn-primary">Compre Agora</a>
                                             </div>
@@ -709,30 +800,23 @@
         <!-- Início da seção do sobre -->
         <section class="sobre my-5">
             
-            <div class="container">
-                
-                
-                <div class="card mt-3 mx-auto">
-                    <div class="row g-0">
+            <div class="container sobre-container">
+                    <div class="row justify-content-center sobre-cercado">
                         <div class="col-md-6">
                             <img src="imagens/profissionais/pessoas.png" class="img-fluid rounded-start imagen-prof" alt="...">
                         </div>
-
                         <div class="col-md-6">
-
-                            <div class="card-body sob-Card">
                                 <h2 class="titulo-sobre">Sobre a Horizontes Livres</h2>
                                 <p class="p-sobre">
                                     Na Horizontes Livres, nossa paixão é conectar você com o mundo. Dessa forma, nossa missão é proporcionar experiências de viagem únicas e inesquecíveis, enquanto nossa visão é ser a sua principal parceira na descoberta de novos horizontes. Acreditamos que viajar é muito mais do que conhecer novos lugares, é uma jornada de autoconhecimento e enriquecimento cultural. Por isso, oferecemos pacotes personalizados e um atendimento exclusivo para que você possa vivenciar momentos mágicos e criar memórias para toda a vida.
                                 </p>
-                                <a href="#" class="btn align-items-end">
-                                    Saiba mais
-                                </a>
-                            </div>
+                                <div class="sobreBotao">
+                                    <a href="#" class="btn">
+                                        Saiba mais
+                                    </a>
+                                </div>
                         </div>
-                    </div>
-                </div>
-                
+                    </div>   
             </div>
             
         </section>

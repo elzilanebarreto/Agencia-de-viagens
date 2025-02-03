@@ -82,19 +82,19 @@ body{
 }
 
 /* ----------------------Slides-------------------- */
-#mapa-h{
-    color: red;
-    font-weight: bold;
-    font-size: 1.7rem;
+#titulo-mapa, #titulo-praia, #titulo-hotel, #titulo-parque{
+    font-weight: bolder;
+    font-size: 3rem;
+    color: white;
 }
 
-#mapa-p{
-    color: rgb(207, 16, 16);
-    font-size: 1.4rem;
+#p-mapa, #p-praia, #p-hotel, #p-parque{
+    font-size: 2rem;
+    color: white;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon, .b-carousel{
-    background-color: red;
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #000957;
 }
 
 
@@ -140,6 +140,16 @@ body{
 }
 
 /* -----------Pacotes Nacionais-------------- */
+/* Animações de quando posicionar no card, ele irá "aumentar" */
+.card{
+    transition: .4s linear; /*Transição suave de 4 segundos*/
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.05); /*Aumenta em uma escala de 5%*/
+}
+
 .card-body{
     padding: 2px 10px;
 }
@@ -313,6 +323,11 @@ body{
 }
 
 /* -------------Sobre nós---------- */
+.sobre-cercado{
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
 .titulo-sobre{
     color: #000957;
     text-align: center;
@@ -322,6 +337,7 @@ body{
 .p-sobre{
     color: black;
     text-align: justify;
+    /* padding-right: 15px; */
 }
 
 .imagen-prof{
@@ -329,10 +345,11 @@ body{
     object-fit: cover;
 }
 
-.sob-Card{
+.sobreBotao{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    margin-bottom: 5px;
 }
 
 /* ----------------Rodapé------------------- */
