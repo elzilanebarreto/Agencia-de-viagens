@@ -391,3 +391,35 @@ body{
     color: rgb(236, 131, 5);
     font-weight: bolder;
 }
+
+/* --------Media Query----- */
+/* Título e paragráfo dos slides */
+@media (max-width: 768px){
+    .titulos-slides {
+        font-size: 2.5rem; 
+    }
+
+    .par-slides {
+        font-size: 1.5rem; 
+    }
+}
+
+@media (max-width: 576px){
+    .titulos-slides {
+        font-size: 1.8rem;
+    }
+
+    .par-slides {
+        font-size: 1.2rem; 
+    }
+}
+
+@media (max-width: 470px){
+    .titulos-slides {
+        font-size: 1rem;
+    }
+
+    .par-slides {
+        font-size: 1rem; 
+    }
+}
