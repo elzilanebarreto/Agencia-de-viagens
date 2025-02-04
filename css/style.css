@@ -82,15 +82,20 @@ body{
 }
 
 /* ----------------------Slides-------------------- */
+.carousel-caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .titulos-slides{
     font-weight: bolder;
     font-size: 3rem;
-    color: white;
 }
 
 .par-slides{
     font-size: 2rem;
-    color: white;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon{
@@ -110,9 +115,6 @@ body{
     color: white;
 }
 
-/* .colunas{
-    background-color: whitesmoke;
-} */
 
 .subtitulo{
     color: white;
@@ -395,6 +397,10 @@ body{
 /* --------Media Query----- */
 /* Título e paragráfo dos slides */
 @media (max-width: 768px){
+    .carousel-caption{
+        padding: 10px;
+    }
+
     .titulos-slides {
         font-size: 2.5rem; 
     }
@@ -405,6 +411,10 @@ body{
 }
 
 @media (max-width: 576px){
+    .carousel-caption{
+        padding: 10px;
+    }
+
     .titulos-slides {
         font-size: 1.8rem;
     }
@@ -415,11 +425,29 @@ body{
 }
 
 @media (max-width: 470px){
+    .carousel-caption{
+        padding: 10px;
+    }
+
     .titulos-slides {
         font-size: 1rem;
     }
 
     .par-slides {
         font-size: 1rem; 
+    }
+}
+
+@media (max-width: 320px){
+    .carousel-caption{
+        padding: 10px;
+    }
+    
+    .titulos-slides {
+        font-size: 20px;
+    }
+    
+    .par-slides {
+        font-size: 12px; 
     }
 }
