@@ -143,17 +143,14 @@ body{
 
 /* -----------Pacotes Nacionais-------------- */
 /* Animações de quando posicionar no card, ele irá "aumentar" */
-.card{
+.card-body{
     transition: .4s linear; /*Transição suave de 4 segundos*/
     cursor: pointer;
-}
-
-.card:hover{
-    transform: scale(1.05); /*Aumenta em uma escala de 5%*/
-}
-
-.card-body{
     padding: 2px 10px;
+}
+
+.card-body:hover{
+    transform: scale(1.05); /*Aumenta em uma escala de 5%*/
 }
 
 .card img{
