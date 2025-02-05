@@ -19,41 +19,46 @@ Adicionalmente, há uma área dedicada para que os clientes possam esclarecer su
 ## Funcionalidades
 
 - Colocar o destino específico e fazer login.
+  
 ![alt text](./assets//imagens/img-site/image.png)
 
-- Slides com anúncios para chamar a atenção com a opção do usuário passar para a próxima imagem ou a anterior. 
+- Slides com anúncios para chamar a atenção com a opção do usuário passar para a próxima imagem ou a anterior.
+ 
 ![alt text](./assets//imagens/img-site/image-2.png)
 
 - Seção para inserir a viagem específica.
+  
 ![alt text](./assets//imagens/img-site/image-3.png)
 
 - Pacotes nacionais com promoção.
+  
 ![alt text](./assets//imagens/img-site/image-4.png)
 
 - Pacotes com promoções internacionais.
+  
 ![alt text](./assets//imagens/img-site/image-5.png)
 
 - Seção para o cliente entrar em contato e esclarecer suas dúvidas.
 ![alt text](./assets//imagens/img-site/image-6.png)
 
 - Apresentação da missão e visão da agência.
+  
 ![alt text](./assets//imagens/img-site/image-7.png)
 
 - Rodapé com os termos de privacidades, redes sociais, central de atendimento e junte-se a agência.
+  
 ![alt text](./assets//imagens/img-site/image-8.png)
 
-- O site é responsivo, isto é, se adapta em qualquer tamanho de tela.
+- O site é responsivo, isto é, se adapta em qualquer tamanho de tela, como:
 
-<div style="display: flex; justify-content: space-around;">
-    <div>
-        <p> - Em iPhone 13 Pro</p>
-        <img src="./assets//imagens/img-site/image-9.png" alt="Descrição da imagem" width="200" height="300">
-    </div>
-    <div>
-        <p> - Galaxy Tab S7</p>
-        <img src="./assets//imagens/img-site/image-10.png" alt="Galaxy Tab S7" width="200" height="300">
-    </div>
-</div>
+  Em iPhone 13 Pro
+  
+<img src="./assets//imagens/img-site/image-9.png" alt="Iphone" width="200" height="300">
+
+  Galaxy Tab S7</p>
+  
+<img src="./assets//imagens/img-site/image-10.png" alt="Galaxy Tab S7" width="200" height="300">
+    
   
 ## Tecnologias Utilizadas
 
@@ -61,23 +66,12 @@ Algumas ferramentas foram usada para o desenvolvimento do projeto.
 
 ### Front-end
 
- <div style="display: flex; justify-content: space-around; flex-direction: row;">
-    <div style="display: flex; flex-direction: column; align-items: center; gap: 5px">
-        Html5
-        <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="Html 5">
-    </div>
-    <div style="display: flex; flex-direction: column; align-items: center; gap: 5px">
-        Css3
-        <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="Css">
-    </div>
-    <div style="display: flex; flex-direction: column;align-items: center; gap: 5px">
-        Bootstrap
-        <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Bootstrap.svg" alt="Bootstrap">
-    </div>
-</div>
-<br>
 
-**OBS**.: como o projeto ainda esta no início, foi apenas criado o arquivo do JavaScript.
+-   Html5: para a estrutura do site;
+
+-   Css3: para a estilização;
+
+-   Bootstrap: para a responsivadade e layout prontos.
 
 ## Pré-requesitos
 Para a excução do projeto localmente, precisa de:
