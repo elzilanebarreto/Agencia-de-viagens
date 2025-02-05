@@ -167,7 +167,7 @@ body{
     white-space: nowrap; /*Não deixa a linha quebrar*/
     overflow: hidden;
 
-    width: 0; /*largura de caracter*/
+    width: 0;
 
     animation: mark .5s step-end infinite,write 5s steps(30,end) infinite;
 }
