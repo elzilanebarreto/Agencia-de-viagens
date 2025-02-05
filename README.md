@@ -181,7 +181,7 @@ Esse modelo implementa o modelo conceitual com detalhes técnicos, definindo tab
 ## Configuração das Pastas
 
 Para melhor organização do projeto, foi preferível deixar os arquivo dentro das pastas.
-- O arquivo style.css segue esse caminho `assets/css/style.css`;
+- O arquivo `style.css` segue esse caminho `assets/css/style.css`;
 - As imagens que fazem parte do site estão em `assets/imagens/pasta-corresponde-de-cada-imagem`;
 - Banco de dados como as imagens dos modelos `banco-de-dados/img-banco` e com extensão do brmodelo `banco-de-dados/brmodelo`;
 - O arquivo `index.html` está no diretório principal.
