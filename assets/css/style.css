@@ -267,17 +267,17 @@ body{
 
     width: 0; /*largura de caracter*/
 
-    animation: mark2 .5s step-end infinite, write2 5s steps(30,end) infinite;
+    animation: marks .5s step-end infinite, escreva 5s steps(30,end) infinite;
 }
 
 /*Animações*/
-@keyframes mark2 {
+@keyframes marks {
     50%{
         border-right-color: transparent;
     }
 }
 
-@keyframes write2 {
+@keyframes escreva {
     20%{
         width: 19ch;
     }
