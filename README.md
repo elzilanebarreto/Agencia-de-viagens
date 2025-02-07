@@ -1,4 +1,4 @@
-# Agência Horizontes Livres 
+#  Agência Horizontes Livres
  Trata-se de um projeto inovador focado na criação de uma agência de viagens, oferecendo uma interface agradável e intuitiva para os usuários explorarem e planejarem suas aventuras. 
 
 ## Índice
@@ -15,64 +15,65 @@
    - [Modelo Físico](#modelo-físico)
 7. [Configuração das Pastas](#configuração-das-pastas)
 
-## Sobre
+## 🛫 Sobre 
 A agência de viagens Horizontes Livres é um site cujo objetivo é proporcionar uma experiência excepcional para o usuário, permitindo que os clientes encontrem e reservem seus pacotes de viagem de maneira fácil e eficiente. Desde a página inicial, os clientes podem pesquisar pacotes de viagem com destinos específicos e fazer login em suas respectivas contas.
 
 O site oferece a opção de personalizar as viagens, permitindo que os clientes insiram o local de origem, destino, datas de início e término da viagem e a quantidade de pessoas inclusas no pacote. Além disso, a agência oferece pacotes nacionais e internacionais em promoção, acessíveis com um clique no botão específico.
 
 Adicionalmente, há uma área dedicada para que os clientes possam esclarecer suas dúvidas sobre pacotes específicos ou personalizados. Por fim, o site exibe a missão e os objetivos da agência, destacando como pretendemos proporcionar aos usuários as melhores oportunidades de viagem.
 
-## Funcionalidades
+## ⚙ Funcionalidades 
 
-- Barra de menu:
+- Navegação intuitiva:
 
-  - Logo e nome da agência, com link para a página principal;
-  - Opções de páginas que farão parte do site;
-  - Procurar por um destino específico, sem estar logado;
-  - Ícone de login, onde o cliente entrar com seu e-mail e senha, ou criará uma conta para realizar sua compra.
+  - Logotipo: clique para retornar à página inicial.
+  - Menu: explore as seções do site e encontre o que procura.
+  - Busca: encontre seu destino ideal rapidamente, sem necessidade de login.
+  - Login/Cadastro: acesse sua conta ou crie uma para aproveitar ofertas exclusivas e personalizadas.
   
 ![barra menu](./assets//imagens/img-site/image.png)
 
 
-- Slides com anúncios para chamar a atenção.
-   - O usuário terá a opção de passar para o próximo slides de forma manual, usuando as setas;
-   - O usuário espera 4 segundo para o slide passar sozinho;
-   - O slides para, na imagem específica, se o usuário deixar o cursor em cima da imagem.
+- Destaques:
+
+  - Descubra: deslize pelos anúncios e explore uma variedade de opções que o site oferece.
+  - Controle: avance manualmente com as setas ou deixe a apresentação automática te surpreender a cada 4 segundos.
+  - Interação: pause a qualquer momento para ver detalhes do anúncio.
  
 ![slides](./assets//imagens/img-site/image-2.png)
 
 
 - Seção para inserir a viagem específica.
   
-   - O cliente irá preencher os dados correspondentes de cada campo;
-   - Quando o cliente apertar o botão de `buscar`, será direcionado para os pacotes correspondentes.
+  - Preencha os campos: informe o local de origem, destino, datas e número de viajantes.
+  - Busque e encontre: explore os pacotes que correspondem às suas preferências.
   
 ![origem-destino](./assets//imagens/img-site/image-3.png)
 
 
-- Pacotes nacionais com promoção.
+- Pacotes nacionais com promoções.
   
-   - O usuário poderá escolher um pacote específico;
-   - Selecionará o botão de compra:
-      - Se o usuário já estiver logado, será direcionado para a opção de pagamento;
-      - Se não estiver logado, será direcionado para fazer o login ou cadastrar uma conta.
+   - Escolha: selecione o pacote que mais te agrada.
+   - Clique em "Comprar": o botão o levará para o próximo passo.
+   - Login/Cadastro: se já é cliente, entre com seus dados. Se não, crie sua conta.
+   - Pagamento: Escolha sua forma de pagamento preferida e finalize a compra com segurança.
   
 ![pacotes nacionais](./assets//imagens/img-site/image-4.png)
 
 
 - Pacotes com promoções internacionais.
 
-  - O usuário poderá escolher um pacote específico;
-  - Selecionará o botão de compra:
-     - Se o usuário já estiver logado, será direcionado para a opção de pagamento;
-     - Se não estiver logado, será direcionado para fazer o login ou cadastrar uma conta.
-   - Os cards com os pacotes passará automaticamente, para o cliente ter mais opção de escolha.
+   - Escolha: selecione o pacote que mais te agrada.
+   - Clique em "Comprar": o botão o levará para o próximo passo.
+   - Login/Cadastro: se já é cliente, entre com seus dados. Se não, crie sua conta.
+   - Pagamento: Escolha sua forma de pagamento preferida e finalize a compra com segurança.
+   - Os cards com os pacotes passará automaticamente.
   
 ![pacotes internacionais](./assets//imagens/img-site/image-5.png)
 
 - Seção para o cliente entrar em contato e esclarecer suas dúvidas.
 
-  - Logo após enviar a dúvida e os dados necessários para os campos, a agência entrará em contato com o cliente através do e-mail disponibilizado. 
+  - O cliente poderá enviar sua dúvida e a agência entrará em contato com o cliente através do e-mail disponibilizado. 
   
 ![contato](./assets//imagens/img-site/image-6.png)
 
@@ -100,7 +101,7 @@ Adicionalmente, há uma área dedicada para que os clientes possam esclarecer su
 <img src="./assets//imagens/img-site/image-10.png" alt="Galaxy Tab S7" width="200" height="300">
     
   
-## Tecnologias Utilizadas
+## 💻 Tecnologias Utilizadas 
 
 Algumas ferramentas foram usada para o desenvolvimento do projeto.
 
@@ -119,7 +120,7 @@ Algumas ferramentas foram usada para o desenvolvimento do projeto.
 
 - BrModelo: para a modelagem do banco.
 
-## Pré-requisitos
+## 🔎 Pré-requisitos 
 - Para acesso ao site:
   
   - Link do versel: [Agência Horizontes Livres](https://agencia-de-viagens-ruddy.vercel.app/)
@@ -140,7 +141,7 @@ Algumas ferramentas foram usada para o desenvolvimento do projeto.
   - Git instalado.
 
 
-## Instalação
+## ⚙️ Instalação 
 
 Siga os passos abaixo para configurar o projeto localmente:
 
@@ -165,7 +166,7 @@ code .
 
 ```
 
-## Modelagem do Banco de Dados
+## 🗃️ Modelagem do Banco de Dados 
 
 Foi usado o brModelo para a execução da modelagem, seguindo os seguintes passos:
 
@@ -187,7 +188,7 @@ Os arquivos com os respectivos modelos e suas imagens, encontram-se na pasta `ba
 
   - Reserva e Pacote:
     - Uma reserva pode ter muitos pacotes ou no mínimo um (1,n); 
-    - Um pacote pode ter uma única reserca (1,1);
+    - Um pacote pode ter uma única reserva (1,1);
 
   - Pacote e Destino:
     - Um pacote possui um único destino (1,1); 
@@ -218,8 +219,7 @@ Esse modelo implementa o modelo conceitual com detalhes técnicos, definindo tab
 
 É o modelo que tem uma estrutura concreta e detalhada de dados que será implementada no sistema do banco de dados futuro. Encontra-se na dentro da pasta: `banco-de-dados/brmodelo/modelo-fisico`. 
 
-## Configuração das Pastas
-
+## 📂 Configuração das Pastas 
 Para melhor organização do projeto, foi preferível deixar os arquivo dentro de pastas.
 - O arquivo `style.css` segue esse caminho `assets/css/style.css`;
 - As imagens que fazem parte do site estão em `assets/imagens/pasta-corresponde-de-cada-imagem`;
