@@ -6,7 +6,8 @@
 2. [Funcionalidades](#funcionalidades)
 3. [Tecnologias Utilizadas](#tecnologias-utilizadas)
    - [Front-end](#front-end)
-4. [Pré-requesitos](#pré-requesitos)
+   - [Back-end](#back-end)
+4. [Pré-requisitos](#pré-requisitos)
 5. [Instalação](#instalação)
 6. [Modelagem do Banco de Dados](#modelagem-do-banco-de-dados)
    - [Modelo Conceitual](#modelo-conceitual)
@@ -27,10 +28,10 @@ Adicionalmente, há uma área dedicada para que os clientes possam esclarecer su
 
   - Logo e nome da agência, com link para a página principal;
   - Opções de páginas que farão parte do site;
-  - Procurar por um destino específico, sem precisar está logado;
+  - Procurar por um destino específico, sem estar logado;
   - Ícone de login, onde o cliente entrar com seu e-mail e senha, ou criará uma conta para realizar sua compra.
   
-![alt text](./assets//imagens/img-site/image.png)
+![barra menu](./assets//imagens/img-site/image.png)
 
 
 - Slides com anúncios para chamar a atenção.
@@ -38,7 +39,7 @@ Adicionalmente, há uma área dedicada para que os clientes possam esclarecer su
    - O usuário espera 4 segundo para o slide passar sozinho;
    - O slides para, na imagem específica, se o usuário deixar o cursor em cima da imagem.
  
-![alt text](./assets//imagens/img-site/image-2.png)
+![slides](./assets//imagens/img-site/image-2.png)
 
 
 - Seção para inserir a viagem específica.
@@ -46,7 +47,7 @@ Adicionalmente, há uma área dedicada para que os clientes possam esclarecer su
    - O cliente irá preencher os dados correspondentes de cada campo;
    - Quando o cliente apertar o botão de `buscar`, será direcionado para os pacotes correspondentes.
   
-![alt text](./assets//imagens/img-site/image-3.png)
+![origem-destino](./assets//imagens/img-site/image-3.png)
 
 
 - Pacotes nacionais com promoção.
@@ -56,7 +57,7 @@ Adicionalmente, há uma área dedicada para que os clientes possam esclarecer su
       - Se o usuário já estiver logado, será direcionado para a opção de pagamento;
       - Se não estiver logado, será direcionado para fazer o login ou cadastrar uma conta.
   
-![alt text](./assets//imagens/img-site/image-4.png)
+![pacotes nacionais](./assets//imagens/img-site/image-4.png)
 
 
 - Pacotes com promoções internacionais.
@@ -67,24 +68,24 @@ Adicionalmente, há uma área dedicada para que os clientes possam esclarecer su
      - Se não estiver logado, será direcionado para fazer o login ou cadastrar uma conta.
    - Os cards com os pacotes passará automaticamente, para o cliente ter mais opção de escolha.
   
-![alt text](./assets//imagens/img-site/image-5.png)
+![pacotes internacionais](./assets//imagens/img-site/image-5.png)
 
 - Seção para o cliente entrar em contato e esclarecer suas dúvidas.
 
   - Logo após enviar a dúvida e os dados necessários para os campos, a agência entrará em contato com o cliente através do e-mail disponibilizado. 
   
-![alt text](./assets//imagens/img-site/image-6.png)
+![contato](./assets//imagens/img-site/image-6.png)
 
 - Apresentação da missão e visão da agência.
 
   - O botão `saiba mais`, o usuário será direcionado para a página do `sobre nós`, presente no menu.
   
-![alt text](./assets//imagens/img-site/image-7.png)
+![sobre](./assets//imagens/img-site/image-7.png)
 
 
 - Rodapé com os termos de privacidades, redes sociais, central de atendimento e junte-se a agência.
   
-![alt text](./assets//imagens/img-site/image-8.png)
+![rodape](./assets//imagens/img-site/image-8.png)
 
 
 - O site é responsivo, isto é, se adapta em qualquer tamanho de tela, como:
@@ -106,29 +107,42 @@ Algumas ferramentas foram usada para o desenvolvimento do projeto.
 ### Front-end
 
 
--   Html5: para a estrutura do site;
+-   HTML5: para estrutura do site;
 
--   Css3: para a estilização;
+-   CSS3: para a estilização;
 
--   Bootstrap: para a responsivadade e layout prontos.
+-   Bootstrap: framework que oferece componentes prontos e responsivos;
 
-## Pré-requesitos
-Para a excução do projeto localmente, precisa de:
+- Media Queries: adapta o layout do site para diferentes tamanhos de tela.
 
-- Um navegador compatível com HTML5 e CSS3.
-    
-    Ex.: Microsoft Edge, Google Chrome, FireFox e outros.
- 
-- Um editor de código.
+### Back-end
 
-    Ex.: VsCode (Visual Studio Code)
+- BrModelo: para a modelagem do banco.
 
-- Git instalado.
+## Pré-requisitos
+- Para acesso ao site:
+  
+  - Link do versel: [Agência Horizontes Livres](https://agencia-de-viagens-ruddy.vercel.app/)
+  - Link do git pages: [Agência Horizontes Livres](https://elzilanebarreto.github.io/Agencia-de-viagens/)
+  - Precisa de um computador ou tablet ou smartphone, com internet.
+
+
+- Para a execução do projeto localmente, precisa de:
+
+  - Um navegador compatível com HTML5 e CSS3.
+      
+      Ex.: Microsoft Edge, Google Chrome, FireFox e outros.
+  
+  - Um editor de código.
+
+      Ex.: VsCode (Visual Studio Code)
+
+  - Git instalado.
 
 
 ## Instalação
 
-Siga os passos abaixo para configurar o projeto:
+Siga os passos abaixo para configurar o projeto localmente:
 
 ```bash
 # Copie o link do repositório remoto do GitHub que está no <code>.
@@ -166,22 +180,48 @@ Os arquivos com os respectivos modelos e suas imagens, encontram-se na pasta `ba
 
 É através desse modelo que definimos as entidades e seus relacionamentos de forma abstrata. Caminho para o arquivo: `banco-de-dados/brmodelo/modelo-conceitual`.
 
-![alt text](./banco-de-dados/img-banco/modelo-conceitual.png)
+- Cardinalidades:
+  - Cliente e Reserva: 
+    - Um cliente pode fazer várias reservas ou nenhuma (0,n);
+    - Uma reserva pode ser feita por um único cliente (1,1).
+
+  - Reserva e Pacote:
+    - Uma reserva pode ter muitos pacotes ou no mínimo um (1,n); 
+    - Um pacote pode ter uma única reserca (1,1);
+
+  - Pacote e Destino:
+    - Um pacote possui um único destino (1,1); 
+    - Um destino possui vários pacotes ou no mínimo um (1,n).
+  
+  - Cliente e Pagamento:
+    - Um cliente pode realizar muitos pagamentos ou apenas um (1,n);
+    - Um pagamento é realizado por um único cliente (1,1).
+  
+  - Pacote e Pagamento:
+    - Um pacote pode ter um único pagamento (1,1);
+    - Um pagamento pode ter um único pacote (1,1).
+
+
+- Imagem do modelo:
+
+![modelo conceitual](banco-de-dados/img-banco/modelo-conceitual.png)
 
 ### Modelo Lógico
 
 Esse modelo implementa o modelo conceitual com detalhes técnicos, definindo tabelas, chaves primárias e estrangeiras. Caminho para o arquivo: `banco-de-dados/brmodelo/modelo-conceitual`.
 
-![alt text](./banco-de-dados/img-banco/modelo-logico.png)
+- Imagem do modelo: 
+
+![modelo logico](./banco-de-dados/img-banco/modelo-logico.png)
 
 ### Modelo Físico
 
-É o modelo que tem uma estrutura concreta e detalhada de dados que será implementada no sistema do banco de dados futuro. Encontra-se na dentro da pasta: `banco-de-dados/brmodelo/modelo-fisico`.
+É o modelo que tem uma estrutura concreta e detalhada de dados que será implementada no sistema do banco de dados futuro. Encontra-se na dentro da pasta: `banco-de-dados/brmodelo/modelo-fisico`. 
 
 ## Configuração das Pastas
 
-Para melhor organização do projeto, foi preferível deixar os arquivo dentro das pastas.
+Para melhor organização do projeto, foi preferível deixar os arquivo dentro de pastas.
 - O arquivo `style.css` segue esse caminho `assets/css/style.css`;
 - As imagens que fazem parte do site estão em `assets/imagens/pasta-corresponde-de-cada-imagem`;
-- Banco de dados como as imagens dos modelos `banco-de-dados/img-banco` e com extensão do brmodelo `banco-de-dados/brmodelo`;
+- Banco de dados como as imagens dos modelos `banco-de-dados/img-banco` e com extensão do BrModelo `banco-de-dados/brmodelo`;
 - O arquivo `index.html` está no diretório principal.
