@@ -143,17 +143,14 @@ body{
 
 /* -----------Pacotes Nacionais-------------- */
 /* Animações de quando posicionar no card, ele irá "aumentar" */
-.card{
+.card-body{
     transition: .4s linear; /*Transição suave de 4 segundos*/
     cursor: pointer;
-}
-
-.card:hover{
-    transform: scale(1.05); /*Aumenta em uma escala de 5%*/
-}
-
-.card-body{
     padding: 2px 10px;
+}
+
+.card-body:hover{
+    transform: scale(1.05); /*Aumenta em uma escala de 5%*/
 }
 
 .card img{
@@ -270,17 +267,17 @@ body{
 
     width: 0; /*largura de caracter*/
 
-    animation: mark2 .5s step-end infinite, write2 5s steps(30,end) infinite;
+    animation: marks .5s step-end infinite, escreva 5s steps(30,end) infinite;
 }
 
 /*Animações*/
-@keyframes mark2 {
+@keyframes marks {
     50%{
         border-right-color: transparent;
     }
 }
 
-@keyframes write2 {
+@keyframes escreva {
     20%{
         width: 19ch;
     }
