@@ -14,7 +14,7 @@
    - [Modelo Lógico](#modelo-lógico)
    - [Modelo Físico](#modelo-físico)
 7. [Configuração das Pastas](#configuração-das-pastas)
-7. [Planejamento](#planejamento)
+8. [Planejamento](#planejamento)
 
 ## 🛫 Sobre 
 A agência de viagens Horizontes Livres é um site cujo objetivo é proporcionar uma experiência excepcional para o usuário, permitindo que os clientes encontrem e reservem seus pacotes de viagem de maneira fácil e eficiente. Desde a página inicial, os clientes podem pesquisar pacotes de viagem com destinos específicos e fazer login em suas respectivas contas.
