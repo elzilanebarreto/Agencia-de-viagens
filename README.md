@@ -221,9 +221,6 @@ Esse modelo implementa o modelo conceitual com detalhes técnicos, definindo tab
 É o modelo que tem uma estrutura concreta e detalhada de dados que será implementada no sistema do banco de dados futuro. Encontra-se na dentro da pasta: `banco-de-dados/brmodelo/modelo-fisico`. 
 
 
-## Planejamento
-
-Foi utilzado uma ferramenta online, conhecidada como trello, para a organização do trabalho. Link para a verificação: ![]  
 
 ## 📂 Configuração das Pastas 
 Para melhor organização do projeto, foi preferível deixar os arquivo dentro de pastas.
@@ -231,3 +228,7 @@ Para melhor organização do projeto, foi preferível deixar os arquivo dentro d
 - As imagens que fazem parte do site estão em `assets/imagens/pasta-corresponde-de-cada-imagem`;
 - Banco de dados como as imagens dos modelos `banco-de-dados/img-banco` e com extensão do BrModelo `banco-de-dados/brmodelo`;
 - O arquivo `index.html` está no diretório principal.
+
+## 🗓️Planejamento
+
+Foi utilzado uma ferramenta online, conhecidada como Trello, para a organização do projeto. Porém, para evitar conflitos de modificação nos devidos arquivos, será mostrado apenas o arquivo em pdf: `planejamento/Projeto_ Agência de Viagem _ Trello.pdf`.
