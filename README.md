@@ -5,14 +5,14 @@
 1. [Sobre](#sobre)
 2. [Funcionalidades](#funcionalidades)
 3. [Tecnologias Utilizadas](#tecnologias-utilizadas)
-   - Front-end
-   - Back-end
+   - [Front-end](#front-end)
+   - [Back-end](#back-end)
 4. [Pré-requisitos](#pré-requisitos)
 5. [Instalação](#instalação)
 6. [Modelagem do Banco de Dados](#modelagem-do-banco-de-dados)
-   - Modelo Conceitual
-   - Modelo Lógico
-   - Modelo Físico
+   - [Modelo Conceitual](#modelo-conceitual)
+   - [Modelo Lógico](#modelo-lógico)
+   - [Modelo Físico](#modelo-físico)
 7. [Configuração das Pastas](#configuração-das-pastas)
 8. [Planejamento](#planejamento)
 
