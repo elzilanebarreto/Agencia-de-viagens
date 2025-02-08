@@ -16,14 +16,14 @@
 7. [Configuração das Pastas](#configuração-das-pastas)
 8. [Planejamento](#planejamento)
 
-## Sobre 🛫 
+## Sobre 
 A agência de viagens Horizontes Livres é um site cujo objetivo é proporcionar uma experiência excepcional para o usuário, permitindo que os clientes encontrem e reservem seus pacotes de viagem de maneira fácil e eficiente. Desde a página inicial, os clientes podem pesquisar pacotes de viagem com destinos específicos e fazer login em suas respectivas contas.
 
 O site oferece a opção de personalizar as viagens, permitindo que os clientes insiram o local de origem, destino, datas de início e término da viagem e a quantidade de pessoas inclusas no pacote. Além disso, a agência oferece pacotes nacionais e internacionais em promoção, acessíveis com um clique no botão específico.
 
 Adicionalmente, há uma área dedicada para que os clientes possam esclarecer suas dúvidas sobre pacotes específicos ou personalizados. Por fim, o site exibe a missão e os objetivos da agência, destacando como pretendemos proporcionar aos usuários as melhores oportunidades de viagem.
 
-## Funcionalidades  ⚙ 
+## Funcionalidades  
 
 - Navegação intuitiva:
 
@@ -102,7 +102,7 @@ Adicionalmente, há uma área dedicada para que os clientes possam esclarecer su
 <img src="./assets//imagens/img-site/image-10.png" alt="Galaxy Tab S7" width="200" height="300">
     
   
-## Tecnologias Utilizadas 💻
+## Tecnologias Utilizadas 
 
 Algumas ferramentas foram usada para o desenvolvimento do projeto.
 
@@ -121,7 +121,7 @@ Algumas ferramentas foram usada para o desenvolvimento do projeto.
 
 - BrModelo: para a modelagem do banco.
 
-## Pré-requisitos 🔎
+## Pré-requisitos 
 - Para acesso ao site:
   
   - Link do versel: [Agência Horizontes Livres](https://agencia-de-viagens-ruddy.vercel.app/)
@@ -142,7 +142,7 @@ Algumas ferramentas foram usada para o desenvolvimento do projeto.
   - Git instalado.
 
 
-## Instalação ⚙️
+## Instalação 
 
 Siga os passos abaixo para configurar o projeto localmente:
 
@@ -167,7 +167,7 @@ code .
 
 ```
 
-## Modelagem do Banco de Dados 🗃️
+## Modelagem do Banco de Dados 
 
 Foi usado o brModelo para a execução da modelagem, seguindo os seguintes passos:
 
@@ -222,13 +222,13 @@ Esse modelo implementa o modelo conceitual com detalhes técnicos, definindo tab
 
 
 
-## Configuração das Pastas 📂
+## Configuração das Pastas
 Para melhor organização do projeto, foi preferível deixar os arquivo dentro de pastas.
 - O arquivo `style.css` segue esse caminho `assets/css/style.css`;
 - As imagens que fazem parte do site estão em `assets/imagens/pasta-corresponde-de-cada-imagem`;
 - Banco de dados como as imagens dos modelos `banco-de-dados/img-banco` e com extensão do BrModelo `banco-de-dados/brmodelo`;
 - O arquivo `index.html` está no diretório principal.
 
-## Planejamento 🗓️
+## Planejamento 
 
 Foi utilzado uma ferramenta online, conhecidada como Trello, para a organização do projeto. Porém, para evitar conflitos de modificação nos devidos arquivos, será mostrado apenas o arquivo em pdf: `planejamento/Projeto_ Agência de Viagem _ Trello.pdf`.
